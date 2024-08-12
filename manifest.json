@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Language Translator",
+    "version": "1.0",
+    "description": "Translate text on webpages.",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16" : "languages16.png",
+        "48": "translateicon.png",
+        "128" : "translate 128.png"
+      }
+    }
+  }
+  
